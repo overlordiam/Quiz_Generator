@@ -22,6 +22,7 @@ ReviseMate is a system that produces questions and answers based on input text o
 - Python
 - Langchain
 - FastAPI
+- HuggingFace
 - Streamlit
 - VectorDB (ChromaDB)
 - Retrievel Augmented Generation (RAG)
