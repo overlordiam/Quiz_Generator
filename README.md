@@ -1,5 +1,5 @@
 # ReviseMate
-ReviseMate is a system that produces questions and answers based on input text or document. The perfect use case is for students during an examination. They provide a document of a certain topic and test their knowledge against the questions produced by the system. It includes a simple and neat interface to answer the quiz, built using Streamlit. The system is built using Langchain for pipelining, Language Models to generate the questions and answers, and a vector database to store document chunks. Performed experimentation with respect to quantization of language models to strike the right balance between accuracy and memory efficiency. The testing framework for different types of questions are custom built. They quantify the correctness of the answers produced by the models, and the best performing Small Language model is Mistral-7B.
+ReviseMate is a system that produces questions and answers based on input text or document. The perfect use case for students during an examination. The user provides a document of a certain topic and can test their knowledge against the questions produced by the system. It includes a simple and neat interface to answer the quiz, built using Streamlit. The system is built using Langchain for pipelining, Language Models to generate the questions and answers, and a vector database to store document chunks. Performed experimentation with respect to quantization of language models to strike the right balance between accuracy and memory efficiency. The testing framework for different types of questions are custom built. They quantify the correctness of the answers produced by the models, and the best performing Small Language model is Mistral-7B.
 
 ## A preview
 <div>
@@ -24,7 +24,7 @@ ReviseMate is a system that produces questions and answers based on input text o
 - FastAPI
 - HuggingFace
 - Streamlit
-- VectorDB (ChromaDB)
+- Vector databases (ChromaDB)
 - Retrievel Augmented Generation (RAG)
 - Small and Large Language Models
 - Object Oriented Programming
